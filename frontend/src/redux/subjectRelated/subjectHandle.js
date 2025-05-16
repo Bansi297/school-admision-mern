@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getRequest, getSuccess, getFailed, getError } from "./subjectSlice";
-const REACT_APP_BASE_URL = "http://localhost:3001";
+const REACT_APP_BASE_URL = "https://school-admision-mern-backend.onrender.com";
 
 
 export const deleteSubject = (id) => async (dispatch) => {
