@@ -6,7 +6,7 @@ import {
     getError,
     stuffDone
 } from './studentSlice';
-const REACT_APP_BASE_URL = "http://localhost:6000";
+const REACT_APP_BASE_URL = "https://school-admision-mern-backend.onrender.com";
 
 export const getAllStudents = (id) => async (dispatch) => {
     dispatch(getRequest());
