@@ -7,7 +7,7 @@ import {
     postDone,
     doneSuccess
 } from './teacherSlice';
-const REACT_APP_BASE_URL = "http://localhost:6000";
+const REACT_APP_BASE_URL = "https://school-admision-mern-backend.onrender.com";
 
 export const getAllTeachers = (id) => async (dispatch) => {
     dispatch(getRequest());
